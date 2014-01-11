@@ -33,7 +33,7 @@ static const unsigned int MAX_BLOCK_SIGOPS = MAX_BLOCK_SIZE/50;
 static const unsigned int MAX_ORPHAN_TRANSACTIONS = MAX_BLOCK_SIZE/100;
 static const int64 MIN_TX_FEE = 100000000;
 static const int64 MIN_RELAY_TX_FEE = MIN_TX_FEE;
-static const int64 MAX_MONEY = 100100110101 * COIN; // MorrisCoin: maximum of 100B coins (given some randomness), max transaction 10,000,000,000 for now
+static const int64 MAX_MONEY = 10010011010 * COIN; // MorrisCoin: maximum of 100B coins (given some randomness), max transaction 10,000,000,000 for now
 inline bool MoneyRange(int64 nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 static const int COINBASE_MATURITY = 30;
 // Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp.
@@ -50,7 +50,7 @@ extern CScript COINBASE_FLAGS;
 
 
 
-static const uint256 hashGenesisBlockOfficial("0x");
+static const uint256 hashGenesisBlockOfficial("0xa9a5deee07a7e34fbee6b344faabee6b8f659912c4f5fed1ade3e7fee4a19784");
 
 extern CCriticalSection cs_main;
 extern std::map<uint256, CBlockIndex*> mapBlockIndex;
