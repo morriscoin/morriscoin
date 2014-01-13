@@ -1,4 +1,4 @@
-# Dogecoin [MOR, Ð]
+# Morriscoin [MOR, Ð]
 http://morriscoin.com/
 
 ![MorrisCoin](http://static.tumblr.com/ppdj5y9/Ae9mxmxtp/300coin.png)
